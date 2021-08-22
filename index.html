@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" data-framework="javascript">
+
+<head>
+    <meta charset="utf-8">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <section class="todoapp">
+        <header class="header">
+            <h1>ToDoList</h1>
+            <input class="new-todo" placeholder="What needs to be done?" autofocus>
+        </header>
+        <section class="main">
+            <input id="toggle-all" class="toggle-all" type="checkbox">
+            <label for="toggle-all">Mark all as complete</label>
+            <ul class="todo-list"></ul>
+        </section>
+        <footer class="footer">
+            <span class="todo-count"><strong></strong></span>
+            <button class="clear-completed">Clear completed</button>
+        </footer>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
